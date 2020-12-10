@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T13:11:32.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="14.0.0" etag="x76_9rNqwNY9OSXnUh3-" type="github"><diagram id="wi6DEnkwpJD7hk6MYbMN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-10T13:20:56.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-vvN0p9q72gq5BOsOoty" version="14.0.0" type="github">
+  <diagram id="wi6DEnkwpJD7hk6MYbMN" name="Page-1">
+    <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-2" value="边侧集群A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-3" value="边侧集群B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.971;exitY=0.438;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="iLOmdCXtz5vY2MMmqh_5-11" target="iLOmdCXtz5vY2MMmqh_5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iLOmdCXtz5vY2MMmqh_5-4" target="iLOmdCXtz5vY2MMmqh_5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-4" value="边侧集群C" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-5" value="BOS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-6" value="Bos Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="400" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-7" value="Bos Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-8" value="Bos Secrets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="400" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-10" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-11" value="image-controller" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-15" value="使用细粒度的ak/sk推送镜像到BOS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-16" value="Cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="110" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-17" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iLOmdCXtz5vY2MMmqh_5-18" value="Edge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
